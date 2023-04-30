@@ -2,4 +2,4 @@
 
 ## use ```yarn``` instead of npm
 
-- to run project, just use ```yarn dev```
+to run project, just use ```yarn dev```
