@@ -1,6 +1,5 @@
 import Express from "express";
 import { config } from "dotenv";
-import cors from "cors"
 import appConfig from "./config/index.js";
 import appRouter from "./routes/index.js";
 
@@ -8,7 +7,6 @@ config()
 const PORT = process.env.PORT || 8080
 const app = Express();
 
-app.use(cors());
 app.use(appConfig);
 
 app.get('/',(req,res)=>{
