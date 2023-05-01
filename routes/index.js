@@ -9,7 +9,7 @@ const appRouter = Router();
 //Unauthenticated Routes
 appRouter.use("/user", userRouter);
 
-// AAuthenticated Routes
+// Authenticated Routes
 appRouter.use(authUser)
 appRouter.use('/coords',locationRouter)
 
